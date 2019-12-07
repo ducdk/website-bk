@@ -19,7 +19,7 @@ class MainController extends Controller
     public function index()
     {
         $tintuc = BlogEtcCategory::where("slug", 'tin-tuc')->firstOrFail();
-        $ptintuc = $tintuc->posts()->where("blog_etc_post_categories.blog_etc_category_id", $tintuc->id)->offset(0)->limit(3);
+        $ptintuc = $tintuc->posts()->where("blog_etc_post_categories.blog_etc_category_id", $tintuc->id);
         $data['tintuc'] = $ptintuc->orderBy("posted_at", "desc")->paginate(3);
 
         $sukien = BlogEtcCategory::where("slug", 'su-kien')->firstOrFail();
