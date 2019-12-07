@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e729689a-22ab-4cde-a491-3ad4068b4f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CtddController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CtddController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HtsvController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HtsvController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/ctdd.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/ctdd.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/event.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/event.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/htsv.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/htsv.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/blogetc/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/blogetc/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/blogetc/partials/index_loop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/blogetc/partials/index_loop.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +195,7 @@
       <workItem from="1574739597537" duration="8188000" />
       <workItem from="1575215740000" duration="411000" />
       <workItem from="1575216194368" duration="5996000" />
-      <workItem from="1575739994021" duration="2701000" />
+      <workItem from="1575739994021" duration="3554000" />
     </task>
     <servers />
   </component>
