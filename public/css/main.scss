@@ -1,0 +1,372 @@
+.banner-main {
+    width: 100%;
+}
+
+.content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content-cell {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 135px;
+        min-height: 75px;
+
+        a {
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .content-image {
+            width: 25px;
+            height: 25px;
+        }
+
+        .content-link {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #333;
+            text-decoration: none;
+        }
+    }
+}
+
+.porlet-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.porlet-right {
+    min-width: 267px;
+}
+
+.porlet-center {
+    flex: 1;
+
+    .porlet-post-horizontal {
+        display: flex;
+
+        .porlet-list {
+            display: flex;
+            flex: 1 1;
+
+            .content-item {
+                display: flex;
+                flex: 1;
+                margin-right: 16px;
+
+                .content-image {
+                    width: 60%;
+                    max-height: 275px;
+                    margin-right: 16px;
+                }
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+
+                    .content-title {
+                        font-size: 20px;
+                        font-weight: normal;
+                        color: black;
+                    }
+
+                    .content-des {
+                        margin-top: 7px;
+                        text-align: justify;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tin-tuc {
+    border-top: 1px solid #ccc;
+    margin-top: 32px;
+    padding: 16px 0;
+}
+
+.su-kien {
+    //border-top: 1px solid #ccc;
+    margin-top: 32px;
+    padding: 16px 0;
+    background-color: #e1e1e1;
+    width: calc(100% + 150px);
+    margin-left: -75px;
+}
+
+.porlet-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #9e100e;
+    font-weight: initial;
+    margin-bottom: 16px;
+}
+
+.porlet-post {
+    //display: flex;
+    ul.porlet-list {
+        padding: 0;
+        margin: 0 0 10px 25px;
+        padding-top: 5px !important;
+        margin-left: 2px !important;
+        flex-direction: column;
+
+        li.content-item {
+            background: url('../images/sao.png') no-repeat scroll 0 12px;
+            margin: 0;
+            padding: 5px 0 5px 14px;
+            list-style-type: none;
+            text-align: justify;
+        }
+    }
+
+    .porlet-list {
+        display: flex;
+        justify-content: flex-start;
+        //align-items: center;
+
+        .content-item {
+
+            display: flex;
+            flex-direction: column;
+            //justify-content: center;
+            //align-items: center;
+            width: 265px;
+            margin-right: 16px;
+
+
+
+            a {
+                img {
+                    width: 100%
+                }
+
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            .content-image {
+                width: 100%;
+                height: 175px;
+            }
+
+            .content-title {
+                color: #333;
+                font-size: 13px;
+                font-weight: normal;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.hoat-dong-sinh-vien {
+    margin-top: 32px;
+    padding: 16px 0;
+    width: 100vw;
+    background-color: #e1e1e1;
+    margin-left: calc((-100vw + 100% + -18px) / 2);
+
+    .tin-tuc {
+        border-top: none;
+    }
+}
+
+.read-more {
+    color: #9c1010;
+    margin-left: 2px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+section.page__title__wrapper.text-center {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+section.page__title__wrapper {
+    background-repeat: no-repeat;
+}
+
+section.page__title__wrapper {
+    background-size: inherit;
+}
+
+section.page__title__wrapper {
+    background-attachment: inherit;
+}
+
+section.page__title__wrapper {
+    background-position: center center;
+}
+
+section.page__title__wrapper {
+    background-image: url(http://elearning.hust.edu.vn/wp-content/uploads/2019/04/breadcrumb.jpg);
+}
+
+section.page__title__wrapper .page__title__inner {
+    width: 100%;
+}
+
+.page__title__inner {
+    padding: 60px 0;
+}
+
+h1.page-title {
+    padding-bottom: 0px;
+    margin: 10px 0 0px;
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+    word-break: break-all;
+}
+
+.breadcrumbs_wrap ul, .breadcrumbs_wrap ul li, .breadcrumbs_wrap ul li a {
+    transition: 0.3s !important;
+    color: black;
+    font-size: 16px;
+    word-break: break-word;
+}
+
+.breadcrumbs_wrap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.breadcrumbs_wrap ul li {
+    a, a:visited {
+        text-decoration: underline;
+    }
+
+    padding: 0 5px;
+}
+
+.breadcrumbs_wrap ul li {
+    display: inline-block;
+}
+
+
+.porlet-event {
+    display: flex;
+    flex: 1;
+
+    .content-row-post {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+
+        a {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+
+
+    .content-cell {
+        border: 1px solid #eee;
+        width: 30%;
+        margin-right: 3%;
+        margin-bottom: 16px;
+    }
+
+    .content-image {
+        width: 100%;
+    }
+}
+
+.education-single-event-text {
+    padding: 25px 28px 32px;
+
+    & > h3 {
+        font-family: "Open Sans", Sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+
+        a {
+            color: #333;
+            box-shadow: none;
+            text-decoration: none;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .button-default {
+        color: #fff;
+        background: #9c1010;
+        font-family: "Open Sans", Sans-serif;
+        font-weight: 600;
+        padding: 6px 23px;
+        box-shadow: none;
+        text-decoration: none;
+        font-size: 14px;
+    }
+}
+
+.education-single-item-comment-view {
+    margin-bottom: 12px;
+
+    span {
+        color: #666;
+        font-size: 12px;
+        font-family: "Open Sans", Sans-serif;
+        font-weight: 600;
+    }
+}
+
+
+.space {
+    width: 100%;
+    height: 75px;
+}
+
+.porlet-content {
+    display: flex;
+    //align-items: center;
+    justify-content: center;
+}
+
+
+.content-left {
+    max-width: 40%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.content-right {
+
+}
+
+.land {
+    margin-top: 72px;
+    padding: 16px 0;
+}
+
+.title-land {
+    text-align: center;
+    font-size: 30px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
