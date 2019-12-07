@@ -26,6 +26,10 @@ class MainController extends Controller
         $psukien = $sukien->posts()->where("blog_etc_post_categories.blog_etc_category_id", $sukien->id);
         $data['sukien'] = $psukien->orderBy("posted_at", "desc")->paginate(3);
 //        dd($data);
+
+        $hd = BlogEtcCategory::where("slug", 'hoat-dong-sinh-vien')->firstOrFail();
+        $phd = $hd->posts()->where("blog_etc_post_categories.blog_etc_category_id", $hd->id);
+        $data['hdsv'] = $phd->orderBy("posted_at", "desc")->paginate(9);
         return view('pages.main', $data);
     }
 

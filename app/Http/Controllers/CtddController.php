@@ -22,6 +22,9 @@ class CtddController extends Controller
         $pthongbao = $thongbao->posts()->where("blog_etc_post_categories.blog_etc_category_id", $thongbao->id)->offset(0)->limit(4);
         $data['thongbao'] = $pthongbao->orderBy("posted_at", "desc")->paginate(4);
 
+        $hd = BlogEtcCategory::where("slug", 'hoat-dong-sinh-vien')->firstOrFail();
+        $phd = $hd->posts()->where("blog_etc_post_categories.blog_etc_category_id", $hd->id);
+        $data['hdsv'] = $phd->orderBy("posted_at", "desc")->paginate(9);
         return view('pages.ctdd',$data);
     }
 

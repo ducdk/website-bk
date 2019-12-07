@@ -50,7 +50,7 @@
                                 <a href="{{$post->url()}}">{{$post->title}}</a>
                             </h3>
                             <div class="education-single-item-comment-view">
-                                <span><i class="fa fa-clock-o"></i> 07:30 AM-06:30 PM</span>
+{{--                                <span><i class="fa fa-clock-o"></i> 07:30 AM-06:30 PM</span>--}}
 {{--                                <span><i class="fa fa-map-marker"></i> Mirpur Indunesia</span>--}}
                             </div>
                             <p>{{$post->subtitle}}</p>

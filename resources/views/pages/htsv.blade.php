@@ -107,56 +107,20 @@
         <div class="porlet-left container tin-tuc">
             <div class="porlet-title">Hoạt động sinh viên</div>
             <div class="row d-flex">
-                <div class="porlet-post col-4">
-                    <ul class="porlet-list">
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
+                @foreach ($hdsv->chunk(3) as $chunk)
 
-                    </ul>
+                    <div class="porlet-post col-4">
+                        <ul class="porlet-list">
+                            @foreach ($chunk as $po)
+                                <li class="content-item">
+                                    <a href="{{$po->url()}}" class="content-title">{{$po->title}}</a>
+                                </li>
+                            @endforeach
+                        </ul>
 
-                    <a href="#" class="read-more">> Xem tất cả</a>
-                </div>
-
-                <div class="porlet-post col-4">
-                    <ul class="porlet-list">
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
-
-                    </ul>
-
-                    <a href="#" class="read-more">> Xem tất cả</a>
-                </div>
-
-                <div class="porlet-post col-4">
-                    <ul class="porlet-list">
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
-                        <li class="content-item">
-                            <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                        </li>
-
-                    </ul>
-
-                    <a href="#" class="read-more">> Xem tất cả</a>
-                </div>
+                        <a href="{{ url('blog/category/hoat-dong-sinh-vien') }}" class="read-more">> Xem tất cả</a>
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>
