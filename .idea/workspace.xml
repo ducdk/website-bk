@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e729689a-22ab-4cde-a491-3ad4068b4f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/khoahoc.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,19 +135,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Setup\xampp\htdocs\website-bk\public\images" />
-      <recent name="E:\Setup\xampp\htdocs\website-bk\resources\views\vendor" />
-      <recent name="E:\Setup\xampp\htdocs\website-bk\resources\lang\en" />
-      <recent name="E:\Setup\xampp\htdocs\website-bk\database\seeds" />
-      <recent name="E:\Setup\xampp\htdocs\website-bk\app\Http\Controllers\Auth" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Setup\xampp\htdocs\website-bk\public\css" />
       <recent name="E:\Setup\xampp\htdocs\website-bk\resources\views" />
       <recent name="E:\Setup\xampp\htdocs\website-bk\resources\views\layouts" />
       <recent name="E:\Setup\xampp\htdocs\website-bk\resources\lang\en" />
       <recent name="E:\Setup\xampp\htdocs\website-bk\database\migrations" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Setup\xampp\htdocs\website-bk\public\images" />
+      <recent name="E:\Setup\xampp\htdocs\website-bk\resources\views\vendor" />
+      <recent name="E:\Setup\xampp\htdocs\website-bk\resources\lang\en" />
+      <recent name="E:\Setup\xampp\htdocs\website-bk\database\seeds" />
+      <recent name="E:\Setup\xampp\htdocs\website-bk\app\Http\Controllers\Auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -198,7 +196,9 @@
       <workItem from="1575215740000" duration="411000" />
       <workItem from="1575216194368" duration="5996000" />
       <workItem from="1575739994021" duration="4488000" />
-      <workItem from="1575788948628" duration="1544000" />
+      <workItem from="1575788948628" duration="1940000" />
+      <workItem from="1575794707622" duration="2262000" />
+      <workItem from="1575803099322" duration="273000" />
     </task>
     <servers />
   </component>
