@@ -21,6 +21,7 @@ Route::get('/trang-chu', 'MainController@index')->name('main');
 Route::get('/tin-tuc-su-kien/{category}', 'EventController@index')->name('event');
 Route::get('/ho-tro-sinh-vien', 'HtsvController@index')->name('event');
 Route::get('/cong-tac-doan-doi', 'CtddController@index')->name('event');
+Route::get('/khoa-hoc', 'KhoaHocController@index')->name('khoahoc');
 
 # Route::get('change_password', 'Auth\ChangePasswordController@showChangePasswordForm')->name('auth.change_password');
 # Route::patch('change_password', 'Auth\ChangePasswordController@changePassword')->name('auth.change_password');

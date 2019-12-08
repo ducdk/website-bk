@@ -141,7 +141,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Khóa học</a>
+                        <a class="nav-link" href="{{ url('khoa-hoc') }}">Khóa học</a>
                     </li>
 
                     <li class="nav-item">
