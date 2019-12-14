@@ -185,17 +185,6 @@ return [
             ],
         ],
         [
-            'text'    => 'Comments Manage',
-            'icon'    => 'fas fa-fw fa-comment-alt',
-            'submenu' => [
-                [
-                    'text' => 'Comments',
-                    'url'  => 'blog_admin/comments',
-                    'icon'    => 'fas fa-fw fa-comments',
-                ]
-            ],
-        ],
-        [
             'text'    => 'Upload Manage',
             'icon'    => 'fas fa-fw fa-image',
             'submenu' => [

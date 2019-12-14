@@ -123,12 +123,12 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Giới thiệu</a>
+                        <a class="nav-link" href="{{ url('/blog/tong-quan') }}">Giới thiệu</a>
 
-                        <div class="sub-menu">
-                            <div class="sub-item">
-                                <a class="nav-link" href="{{ url('/blog/tong-quan') }}">Tổng quan</a>
-                            </div>
+{{--                        <div class="sub-menu">--}}
+{{--                            <div class="sub-item">--}}
+{{--                                <a class="nav-link" href="{{ url('/blog/tong-quan') }}">Tổng quan</a>--}}
+{{--                            </div>--}}
 
 {{--                            <div class="sub-item">--}}
 {{--                                <a class="nav-link" href="#">Danh sách khoa viện</a>--}}
@@ -137,7 +137,7 @@
 {{--                            <div class="sub-item">--}}
 {{--                                <a class="nav-link" href="#">Danh sách giang viên</a>--}}
 {{--                            </div>--}}
-                        </div>
+{{--                        </div>--}}
                     </li>
 
                     <li class="nav-item">
@@ -177,7 +177,7 @@
 {{--                    </li>--}}
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Liên hệ</a>
+                        <a class="nav-link" href="{{url('/blog/lien-he') }}">Liên hệ</a>
                     </li>
                 </ul>
             </div>

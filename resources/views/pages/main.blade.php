@@ -66,16 +66,16 @@
             <div class="porlet-title">Tin tức nổi bật</div>
             <div class="porlet-post">
                 <ul class="porlet-list">
+                    @forelse($tintucnoibat as $post)
                     <li class="content-item">
-                        <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
+                        <a href="{{$post->url() }}" class="content-title">{{$post->title}}</a>
                     </li>
-                    <li class="content-item">
-                        <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                    </li>
+                    @empty
+                    @endforelse
 
                 </ul>
 
-                <a href="#" class="read-more">> Xem tất cả</a>
+                <a href="{{ url('tin-tuc-su-kien/tin-tuc') }}" class="read-more">> Xem tất cả</a>
             </div>
         </div>
     </div>
@@ -103,16 +103,15 @@
             <div class="porlet-title">Sự kiện sắp diễn ra</div>
             <div class="porlet-post">
                 <ul class="porlet-list">
-                    <li class="content-item">
-                        <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                    </li>
-                    <li class="content-item">
-                        <a href="#" class="content-title">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</a>
-                    </li>
-
+                    @forelse($sukiennoibat as $post)
+                        <li class="content-item">
+                            <a href="{{$post->url() }}" class="content-title">{{$post->title}}</a>
+                        </li>
+                    @empty
+                    @endforelse
                 </ul>
 
-                <a href="#" class="read-more">> Xem tất cả</a>
+                <a href="{{ url('tin-tuc-su-kien/su-kien') }}" class="read-more">> Xem tất cả</a>
             </div>
         </div>
     </div>
@@ -122,25 +121,19 @@
             <div class="porlet-title">Khóa học</div>
             <div class="porlet-post-horizontal">
                 <div class="porlet-list">
+
+                    @forelse($khoahoc as $post)
                     <div class="content-item">
                         <img class="content-image" src="{{ asset('images/article.jpg') }}" alt="">
                         <div class="content">
-                            <span class="content-title">Tri ân các thầy/cô giáo</span>
-                            <span class="content-des">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</span>
-                            <a href="#" class="read-more">> Xem chi tiết</a>
+                            <span class="content-title">{{ $post->displayname }}</span>
+{{--                            <span class="content-des">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</span>--}}
+                            <a href="{{url('khoa-hoc/'.$post->id )}}" class="read-more">> Xem chi tiết</a>
                         </div>
 
                     </div>
-
-                    <div class="content-item">
-                        <img class="content-image" src="{{ asset('images/article4.jpg') }}" alt="">
-                        <div class="content">
-                            <span class="content-title">Tri ân các thầy/cô giáo</span>
-                            <span class="content-des">Tri ân các thầy/cô giáo Trường Đại học Bách khoa Hà Nội</span>
-                            <a href="#" class="read-more">> Xem chi tiết</a>
-                        </div>
-
-                    </div>
+                    @empty
+                    @endforelse
                 </div>
             </div>
         </div>
